@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "@coolbitx-technology/eslint-config-cp"
+  ]
+}
