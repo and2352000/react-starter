@@ -13,7 +13,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { RootState, AppDispatch } from './store';
 import { counterSlice, sleep3secIncOneThunk } from './counterSlice';
 import { PageRoute } from './Router'
-import Container from '@mui/material/Container';
 
 import { LeftDrawer } from './Drawer'
 const { incremented } = counterSlice.actions;
