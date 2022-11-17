@@ -15,6 +15,7 @@ module.exports = {
     ],
     devServer: {
         static: './dist',
+        historyApiFallback: true
     },
     output: {
         filename: '[name].js',
